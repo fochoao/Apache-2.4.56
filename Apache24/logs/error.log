@@ -1,0 +1,39 @@
+
+
+[Sat Mar 11 14:16:05.026617 2023] [ssl:warn] [pid 7852:tid 420] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:16:05.063962 2023] [ssl:warn] [pid 7852:tid 420] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:16:05.064961 2023] [mpm_winnt:notice] [pid 7852:tid 420] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t mod_fcgid/2.3.9 configured -- resuming normal operations
+[Sat Mar 11 14:16:05.064961 2023] [mpm_winnt:notice] [pid 7852:tid 420] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Mar 11 14:16:05.064961 2023] [core:notice] [pid 7852:tid 420] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Mar 11 14:16:05.070959 2023] [mpm_winnt:notice] [pid 7852:tid 420] AH00418: Parent: Created child process 26808
+Apache server shutdown initiated...
+sl:warn] [pid 26808:tid 424] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:16:05.620783 2023] [ssl:warn] [pid 26808:tid 424] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:16:05.624782 2023] [mpm_winnt:notice] [pid 26808:tid 424] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 11 14:17:17.656777 2023] [mpm_winnt:notice] [pid 7852:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 11 14:17:24.653209 2023] [ssl:warn] [pid 37532:tid 388] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:17:24.682198 2023] [core:warn] [pid 37532:tid 388] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Mar 11 14:17:24.685197 2023] [ssl:warn] [pid 37532:tid 388] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:17:24.686196 2023] [mpm_winnt:notice] [pid 37532:tid 388] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t mod_fcgid/2.3.9 configured -- resuming normal operations
+[Sat Mar 11 14:17:24.686196 2023] [mpm_winnt:notice] [pid 37532:tid 388] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Mar 11 14:17:24.686196 2023] [core:notice] [pid 37532:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Mar 11 14:17:24.692195 2023] [mpm_winnt:notice] [pid 37532:tid 388] AH00418: Parent: Created child process 34164
+[Sat Mar 11 14:17:25.079764 2023] [ssl:warn] [pid 34164:tid 404] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:17:25.110626 2023] [ssl:warn] [pid 34164:tid 404] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:17:25.116624 2023] [mpm_winnt:notice] [pid 34164:tid 404] AH00354: Child: Starting 64 worker threads.
+[Sat Mar 11 14:17:52.404840 2023] [mpm_winnt:notice] [pid 26808:tid 424] AH00362: Child: Waiting 30 more seconds for 2 worker threads to finish.
+[Sat Mar 11 14:17:55.356827 2023] [mpm_winnt:notice] [pid 26808:tid 424] AH00364: Child: All worker threads have exited.
+[Sat Mar 11 14:18:03.820543 2023] [fcgid:error] [pid 26808] FastCGI process 42412 still did not exit, terminating forcefully
+[Sat Mar 11 14:23:15.779077 2023] [mpm_winnt:notice] [pid 37532:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Mar 11 14:23:17.799093 2023] [mpm_winnt:notice] [pid 34164:tid 404] AH00364: Child: All worker threads have exited.
+[Sat Mar 11 14:23:26.276701 2023] [fcgid:error] [pid 34164] FastCGI process 36088 still did not exit, terminating forcefully
+[Sat Mar 11 14:23:27.294620 2023] [mpm_winnt:notice] [pid 37532:tid 388] AH00430: Parent: Child process 34164 exited successfully.
+[Sat Mar 11 14:23:28.880053 2023] [ssl:warn] [pid 14380:tid 388] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:23:28.913975 2023] [ssl:warn] [pid 14380:tid 388] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:23:28.915016 2023] [mpm_winnt:notice] [pid 14380:tid 388] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t mod_fcgid/2.3.9 configured -- resuming normal operations
+[Sat Mar 11 14:23:28.915016 2023] [mpm_winnt:notice] [pid 14380:tid 388] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Mar 11 14:23:28.915016 2023] [core:notice] [pid 14380:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Mar 11 14:23:28.920973 2023] [mpm_winnt:notice] [pid 14380:tid 388] AH00418: Parent: Created child process 43004
+[Sat Mar 11 14:23:29.305850 2023] [ssl:warn] [pid 43004:tid 408] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:23:29.336840 2023] [ssl:warn] [pid 43004:tid 408] AH01906: localhost:8090:0 server certificate is a CA certificate (BasicConstraints: CA == TRUE !?)
+[Sat Mar 11 14:23:29.342837 2023] [mpm_winnt:notice] [pid 43004:tid 408] AH00354: Child: Starting 64 worker threads.
