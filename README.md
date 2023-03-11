@@ -1,4 +1,4 @@
-### Apache 2.4.56 with PHP
+# Apache 2.4.56 with PHP
 
 ## Drop into C:\ both folders.
 
